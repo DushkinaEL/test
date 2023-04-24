@@ -16,5 +16,6 @@ public class Login {
             } while (password.length()< 8 || password.length()> 15);
         }
         System.out.printf("%s, Ваш новый пароль: %s", name, password);
+        System.out.println("все круто");
     }
 }
